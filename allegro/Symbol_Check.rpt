@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : imx6 rex_v1i1.brd                             )
+(    Software Version : 22.1S002                                      )
+(    Date/Time        : Fri Mar  3 21:42:55 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	D:/cadence/SPB_22.1/share/local/pcb/symbols
+	D:/cadence/SPB_22.1/share/pcb/pcb_lib/symbols
+	D:/cadence/SPB_22.1/share/pcb/allegrolib/symbols
+	D:/dev/cadence/lib
+
+
+All Symbols Found
+
+Total symbols placed:      1 out of 469
+
+
+Symbol Found:  Y3	- D:/cadence/SPB_22.1/share/local/pcb/symbols/abm7_v1_1.psm

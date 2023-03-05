@@ -1,0 +1,448 @@
+Date and Time : 03/04/23 20:28:36
+
+--------------------------------------------------
+Checking Schematic:  iMX6 Rex_V1I1 Project
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+--------------------------------------------------
+Checking Schematic: [04] - CPU - DDR3, DDR3 MEM.SchDoc [04] - CPU - DDR3, DDR3 MEM
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+--------------------------------------------------
+Checking Schematic: [05] - CPU - PCIE, SATA.SchDoc [05] - CPU - PCIE, SATA
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1608): Net has no driving source PCIE_RX_N 
+                    [05] - CPU - PCIE, SATA, PCIE_SATA  (9.50, 3.30) 
+WARNING(ORCAP-1608): Net has no driving source PCIE_RX_P 
+                    [05] - CPU - PCIE, SATA, PCIE_SATA  (9.50, 3.40) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+--------------------------------------------------
+Checking Schematic: [06] - CPU - HDMI, LVDS.SchDoc [06] - CPU - HDMI, LVDS
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_TX0_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 7.20) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_DATA0_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 7.20) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_TX1_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 7.50) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_DATA1_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 7.50) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_TX2_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 7.90) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_DATA2_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 7.90) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_TX2_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 7.80) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_DATA2_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 7.80) 
+ERROR(ORCAP-1628): Possible pin type conflict HDMI_D2_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.60, 4.30) 
+ERROR(ORCAP-1628): Possible pin type conflict U1G,HDMI_TX_DATA2_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 4.30) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_TX3_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 8.20) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_DATA3_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 8.20) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_TX3_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 8.10) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_DATA3_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 8.10) 
+ERROR(ORCAP-1628): Possible pin type conflict HDMI_CLK_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.60, 3.50) 
+ERROR(ORCAP-1628): Possible pin type conflict U1G,HDMI_TX_CLK_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 3.50) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_TX1_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 7.60) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_DATA1_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 7.60) 
+ERROR(ORCAP-1628): Possible pin type conflict HDMI_D1_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.60, 4.00) 
+ERROR(ORCAP-1628): Possible pin type conflict U1G,HDMI_TX_DATA1_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 4.00) 
+ERROR(ORCAP-1628): Possible pin type conflict HDMI_D1_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.60, 4.10) 
+ERROR(ORCAP-1628): Possible pin type conflict U1G,HDMI_TX_DATA1_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 4.10) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_TX0_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 7.30) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_DATA0_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 7.30) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_CLK_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 8.40) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_CLK_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 8.40) 
+ERROR(ORCAP-1628): Possible pin type conflict HDMI_D0_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.60, 3.80) 
+ERROR(ORCAP-1628): Possible pin type conflict U1G,HDMI_TX_DATA0_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 3.80) 
+ERROR(ORCAP-1628): Possible pin type conflict HDMI_D0_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.60, 3.70) 
+ERROR(ORCAP-1628): Possible pin type conflict U1G,HDMI_TX_DATA0_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 3.70) 
+ERROR(ORCAP-1628): Possible pin type conflict LVDS0_CLK_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.70, 8.50) 
+ERROR(ORCAP-1628): Possible pin type conflict U1F,LVDS0_CLK_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 8.50) 
+ERROR(ORCAP-1628): Possible pin type conflict HDMI_CLK_N  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.60, 3.40) 
+ERROR(ORCAP-1628): Possible pin type conflict U1G,HDMI_TX_CLK_N  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 3.40) 
+ERROR(ORCAP-1628): Possible pin type conflict HDMI_D2_P  Input Port Connected to Output
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (14.60, 4.40) 
+ERROR(ORCAP-1628): Possible pin type conflict U1G,HDMI_TX_DATA2_P  Output Connected to Input Port
+                    [06] - CPU - HDMI, LVDS, HDMI_LVDS  (12.40, 4.40) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+--------------------------------------------------
+Checking Schematic: [07] - CPU - USB, ETHERNET.SchDoc [07] - CPU - USB, ETHERNET
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR(ORCAP-1628): Possible pin type conflict RGMII_TXD2  Input Port Connected to Output
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 4.20) 
+ERROR(ORCAP-1628): Possible pin type conflict U1H,HSI_RX_DATA / RGMII_TD2 / <GPIO6_IO22>  Output Connected to Input Port
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (7.80, 4.20) 
+ERROR(ORCAP-1628): Possible pin type conflict RGMII_TXD3  Input Port Connected to Output
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 4.30) 
+ERROR(ORCAP-1628): Possible pin type conflict U1H,HSI_RX_WAKE / RGMII_TD3 / <GPIO6_IO23>  Output Connected to Input Port
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (7.80, 4.30) 
+ERROR(ORCAP-1628): Possible pin type conflict RGMII_TXEN  Input Port Connected to Output
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 4.50) 
+ERROR(ORCAP-1628): Possible pin type conflict U1H,USB_H2_STROBE / RGMII_TX_CTL / <GPIO6_IO26> / ENET_REF_CLK  Output Connected to Input Port
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (7.80, 4.50) 
+ERROR(ORCAP-1628): Possible pin type conflict RGMII_TXD1  Input Port Connected to Output
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 4.10) 
+ERROR(ORCAP-1628): Possible pin type conflict U1H,HSI_RX_FLAG / RGMII_TD1 / <GPIO6_IO21>  Output Connected to Input Port
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (7.80, 4.10) 
+ERROR(ORCAP-1628): Possible pin type conflict RGMII_TXD0  Input Port Connected to Output
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 4.00) 
+ERROR(ORCAP-1628): Possible pin type conflict U1H,HSI_TX_READY / RGMII_TD0 / <GPIO6_IO20>  Output Connected to Input Port
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (7.80, 4.00) 
+WARNING(ORCAP-1608): Net has no driving source RGMII_RXD3 
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 5.40) 
+WARNING(ORCAP-1608): Net has no driving source RGMII_RXCLK 
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 4.90) 
+WARNING(ORCAP-1608): Net has no driving source RGMII_RXD2 
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 5.30) 
+WARNING(ORCAP-1608): Net has no driving source RGMII_RXD0 
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 5.10) 
+WARNING(ORCAP-1608): Net has no driving source RGMII_RXDV 
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 5.60) 
+WARNING(ORCAP-1608): Net has no driving source RGMII_RXD1 
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (10.90, 5.20) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections +3V3 
+                    [07] - CPU - USB, ETHERNET, USB_ETHERNET  (12.30, 9.70) 
+
+Checking For Unconnected Bus Nets
+
+--------------------------------------------------
+Checking Schematic: [08] - CPU - SPI, I2C, SD, MMC.SchDoc [08] - CPU - SPI, I2C, SD, MMC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+--------------------------------------------------
+Checking Schematic: [03] - CONNECTORS.SchDoc [03] - CONNECTORS
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+ERROR(ORCAP-1606): Wire crosses pin but is not connected U4,MECH01 
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (19.20, 13.70) 
+ERROR(ORCAP-1606): Wire crosses pin but is not connected U2,MECH08 
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (19.20, 8.80) 
+
+--------------------------------------------------
+Checking Schematic:  iMX6 Rex_V1I1 Project
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Schematic: [04] - CPU - DDR3, DDR3 MEM.SchDoc [04] - CPU - DDR3, DDR3 MEM
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Schematic: [05] - CPU - PCIE, SATA.SchDoc [05] - CPU - PCIE, SATA
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Schematic: [06] - CPU - HDMI, LVDS.SchDoc [06] - CPU - HDMI, LVDS
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Schematic: [07] - CPU - USB, ETHERNET.SchDoc [07] - CPU - USB, ETHERNET
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Schematic: [08] - CPU - SPI, I2C, SD, MMC.SchDoc [08] - CPU - SPI, I2C, SD, MMC
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Schematic: [03] - CONNECTORS.SchDoc [03] - CONNECTORS
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: IMX6 REX_V1I1 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ5  VDDQ5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.30, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ4  VDDQ4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.20, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ6  VDDQ6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.40, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ7  VDDQ7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.50, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ9  VDDQ9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.70, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ8  VDDQ8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.60, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ8  VDDQ8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.50, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ6  VDDQ6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.30, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ7  VDDQ7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.40, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ5  VDDQ5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.20, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ4  VDDQ4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.10, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ3  VDDQ3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.00, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ2  VDDQ2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.90, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ1  VDDQ1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.80, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD7  VDD7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.50, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD2  VDD2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (21.90, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD1  VDD1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (21.80, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD5  VDD5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.20, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD6  VDD6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.30, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD4  VDD4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.10, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD3  VDD3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.00, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD7  VDD7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.40, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD8  VDD8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.50, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ2  VDDQ2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.00, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ1  VDDQ1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.90, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDD9  VDD9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.60, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD8  VDD8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.60, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD9  VDD9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.70, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD4  VDD4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.20, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD6  VDD6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.40, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD5  VDD5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.30, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD3  VDD3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.10, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD2  VDD2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.00, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDD1  VDD1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (15.90, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_2  NVCC_DRAM_2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 13.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_1  NVCC_DRAM_1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 13.40) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_6  NVCC_DRAM_6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 13.90) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_4  NVCC_DRAM_4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 13.70) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_3  NVCC_DRAM_3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 13.60) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_5  NVCC_DRAM_5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 13.80) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_13  NVCC_DRAM_13  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 14.60) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_12  NVCC_DRAM_12  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 14.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_11  NVCC_DRAM_11  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 14.40) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_10  NVCC_DRAM_10  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 14.30) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_9  NVCC_DRAM_9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 14.20) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_8  NVCC_DRAM_8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 14.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,NVCC_DRAM_7  NVCC_DRAM_7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 14.00) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U5,VDDQ9  VDDQ9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.60, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U2,VDDQ3  VDDQ3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.10, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD8  VDD8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.60, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD7  VDD7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.50, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD9  VDD9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.70, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD6  VDD6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.40, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD5  VDD5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.30, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD4  VDD4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.20, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD2  VDD2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.00, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD1  VDD1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (15.90, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDD3  VDD3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.10, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ1  VDDQ1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (16.90, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ2  VDDQ2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.00, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ3  VDDQ3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.10, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ5  VDDQ5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.30, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ4  VDDQ4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.20, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ9  VDDQ9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.70, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ7  VDDQ7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.50, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ6  VDDQ6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.40, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U4,VDDQ8  VDDQ8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (17.60, 10.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ5  VDDQ5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.20, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ7  VDDQ7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.40, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ9  VDDQ9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.60, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ8  VDDQ8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.50, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ6  VDDQ6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.30, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ4  VDDQ4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.10, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD8  VDD8  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.50, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD7  VDD7  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.40, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ3  VDDQ3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (23.00, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ2  VDDQ2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.90, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDDQ1  VDDQ1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.80, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD9  VDD9  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.60, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD6  VDD6  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.30, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD4  VDD4  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.10, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD1  VDD1  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (21.80, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD3  VDD3  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.00, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD2  VDD2  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (21.90, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U3,VDD5  VDD5  +1V5_DDR
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (22.20, 4.50) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,DRAM_VREF  DRAM_VREF  +DDR_VREF
+                    [04] - CPU - DDR3, DDR3 MEM, CPU_DDR3_DDR3_MEM  (11.20, 12.60) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
+   MCIMX6Q5EYM10AC_U1	                       5	                       U1: O  N  M  B  A  

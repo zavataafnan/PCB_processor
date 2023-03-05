@@ -1,0 +1,27 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY"
+color -vis "DRAWING FORMAT"
+color -vis "DRC ERROR CLASS"
+color -vis "ETCH"
+color -vis "MANUFACTURING"
+color -vis "ANALYSIS"
+color -vis "PACKAGE GEOMETRY"
+color -vis "PACKAGE KEEPIN"
+color -vis "PACKAGE KEEPOUT"
+color -vis "PIN"
+color -vis "ROUTE KEEPIN"
+color -vis "ROUTE KEEPOUT"
+color -vis "VIA CLASS"
+color -vis "VIA KEEPOUT"
+color -vis "ANTI ETCH"
+color -vis "BOUNDARY/TOP"
+color -vis "BOUNDARY/BOTTOM"
+color -vis "BOUNDARY/ALL"
+color -vis "CONSTRAINT REGION"
+color -vis "PLAN"
+color -vis "CAVITY"
+color -vis "RIGID FLEX"
+color -vis "SURFACE FINISHES"

@@ -1,0 +1,55 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [
+		{
+			"Name" : "N01413",
+			"C_PATH" : "@\\imx6 rex_v1i1\\.all_design(sch_1):n01413",
+			"Logical" : null,
+			"Physical" : "N01413"
+		}
+	],
+	"Connection" : [
+		{
+			"Name" : "C259.1",
+			"C_PATH" : "@\\imx6 rex_v1i1\\.all_design(sch_1):ins337107@orcad_library.\\c3216x5r1a107m.normal\\(chips):\\1\\",
+			"Logical" : "+3V3",
+			"Physical" : "N01413"
+		},
+		{
+			"Name" : "C260.1",
+			"C_PATH" : "@\\imx6 rex_v1i1\\.all_design(sch_1):ins336841@orcad_library.\\c3216x5r1a107m.normal\\(chips):\\1\\",
+			"Logical" : "+3V3",
+			"Physical" : "N01413"
+		},
+		{
+			"Name" : "L6.1",
+			"C_PATH" : "@\\imx6 rex_v1i1\\.all_design(sch_1):ins336431@orcad_library.\\ihlp2525czer4r7m01.normal\\(chips):\\1\\",
+			"Logical" : "+3V3",
+			"Physical" : "N01413"
+		},
+		{
+			"Name" : "R123.2",
+			"C_PATH" : "@\\imx6 rex_v1i1\\.all_design(sch_1):ins336117@project_worklib.\\rc0402fr-0739kl_r123.normal\\(chips):\\2\\",
+			"Logical" : "+3V3",
+			"Physical" : "N01413"
+		},
+		{
+			"Name" : "TP6.1",
+			"C_PATH" : "@\\imx6 rex_v1i1\\.all_design(sch_1):ins335921@project_worklib.\\tp_25milc_tp6.normal\\(chips):\\1\\",
+			"Logical" : "+3V3",
+			"Physical" : "N01413"
+		},
+		{
+			"Name" : "U11.10",
+			"C_PATH" : "@\\imx6 rex_v1i1\\.all_design(sch_1):ins336585@project_worklib.\\isl6236airz_u11.normal\\(chips):OUT1",
+			"Logical" : "+3V3",
+			"Physical" : "N01413"
+		}
+	]
+}
